@@ -15,7 +15,7 @@ async def on_ready():
   #await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="노래 듣는중"))
   #await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="영상 시청중"))
   
-  print("봇 이름:",client.user.name,"봇 아이디:",client.user.id,"봇 버전:",discord.__version__)
+  print("아티:",client.user.name,"7478:",client.user.id,"봇 버전:",discord.__version__)
 
 
-client.run(os.environ['token'])
+client.run(os.environ['MTAzMzY5ODg3MzYxNDU0NDk3Nw.Gr8m89.xDiHG7zgRH9lGzRlQ8tTHodMs60ceNhHhXjw3M'])
