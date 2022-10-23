@@ -35,4 +35,4 @@ class MyClient(discord.Client):
 intents = discord.Intents.default()
 intents.message_content = True
 client = MyClient(intents=intents)
-client.run('MTAzMzY5ODg3MzYxNDU0NDk3Nw.GcrGht.S6xUksmqCy8vt9gEopE6mlJzUjBQGDMsez1Tb0')
+client.run('token')
